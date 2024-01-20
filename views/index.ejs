@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Qr Code Generator</h1>
+        </div>
+        <div class="form-box">
+            <form action="/" method="post">
+                <input type="text" name="url" placeholder="Paste Url Here">
+                <button type="submit">Generator</button>
+            </form>
+        </div>
+        <div class="image-display">
+            <img src=" <%= image %> " />
+            <a href="<%= image %> " download="">
+                <%= down %>
+            </a>
+        </div>
+        <div class="tag">
+            <p>@prabej7_
+            <p>
+        </div>
+    </div>
+    <script src="jss/script.js"></script>
+</body>
+
+</html>
